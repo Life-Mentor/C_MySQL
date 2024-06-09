@@ -5,6 +5,7 @@
 #include <sys/un.h>
 #include <unistd.h>
 
+
 struct sockaddr_un addr;
 char *mysql_sock = "/run/mysqld/mysqld.sock";
 
